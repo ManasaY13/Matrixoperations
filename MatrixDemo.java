@@ -35,7 +35,7 @@ public class MatrixDemo {
         System.out.println("addition of both matrices is");
         for (int i=0;i<row;i++){
             for(int j=0;j<col;j++){
-                System.out.println(addm[i][j]+ " ");
+                System.out.print(addm[i][j]+ " ");
                 }
                 System.out.println( );
         }
@@ -52,7 +52,7 @@ public class MatrixDemo {
         System.out.println("multiplication of both matrices is");
         for (int i=0;i<row;i++){
             for(int j=0;j<col;j++){
-                System.out.println(mulm[i][j]+" ");
+                System.out.print(mulm[i][j]+" ");
                 }
                 System.out.println( );
         }
